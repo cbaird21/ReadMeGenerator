@@ -67,18 +67,17 @@ const promptUser = () => {
 };
 
 // TODO: Create a function to write README file
-function writeToFile() {
-  const generateREADME = ({
-    userName,
-    emailAddress,
-    projectDescription,
-    license,
-    dependencies,
-    test,
-    userInfo,
-    contributions,
-  }) =>
-    ` ## ${projectName}  
+const generateREADME = ({
+  userName,
+  emailAddress,
+  projectDescription,
+  license,
+  dependencies,
+  test,
+  userInfo,
+  contributions,
+}) =>
+  ` ## ${projectName}  
         # Description  
         ${projectDescription}  
         # Installation  
@@ -95,7 +94,6 @@ function writeToFile() {
         ${userName}  
         ${emailAddress}  
         `;
-}
 
 // TODO: Create a function to initialize app
 const init = () => {
