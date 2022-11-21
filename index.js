@@ -28,8 +28,9 @@ const promptUser = () => {
       name: "projectDescription",
     },
     {
-      type: "input",
+      type: "checkbox",
       message: "What kind of license should your project have?",
+      choices: ["MIT", "GPLv2", "GPLv3", "IBM"],
       name: "license",
     },
     {
@@ -57,34 +58,35 @@ const promptUser = () => {
 };
 
 // TODO: Create a function to write README file
-const generateREADME = ({
-  userName,
-  emailAddress,
-  projectDescription,
-  license,
-  dependencies,
-  test,
-  userInfo,
-  contributions,
-  projectName,
-}) =>
-  ` ## ${projectName}  
-        # Description  
-        ${projectDescription}  
-        # Installation  
-        ${dependencies}  
-        #Usage  
-        ${userInfo}  
-        #Contributions  
-        ${contributions}  
-        #Tests  
-        ${test}  
-        #License  
-        ${license}  
-        #Questions  
-        ${userName}  
-        ${emailAddress}  
-        `;
+// const generateREADME = ({
+//   userName,
+//   emailAddress,
+//   projectDescription,
+//   license,
+//   dependencies,
+//   test,
+//   userInfo,
+//   contributions,
+//   projectName,
+// }) =>
+//   ` #  Readme Generator
+//       ${projectName}  
+  
+// ## Description  
+//  ${projectDescription}
+// ## Installation  
+// ${dependencies} 
+// ## Usage  
+// ${userInfo} 
+// ## Contributions  
+// ${contributions} 
+// ## Tests  
+// ${test} 
+// ## License  
+// ${license}  
+// ## Questions  
+// ${userName} ${emailAddress}
+//         `;
 
 // TODO: Create a function to initialize app
 const init = () => {

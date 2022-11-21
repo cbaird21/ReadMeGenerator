@@ -1,17 +1,29 @@
- ## coo  
-        # Description  
-        coo  
-        # Installation  
-        undefined  
-        #Usage  
-        coo  
-        #Contributions  
-        coo  
-        #Tests  
-        coo  
-        #License  
-        coo  
-        #Questions  
-        coo  
-        coo  
-        
+# Readme Generator
+
+## Description
+
+to make readme quick and easy to build
+
+## Installation
+
+undefined
+
+## Usage
+
+nothing
+
+## Contributions
+
+no needc
+
+## Tests
+
+test
+
+## License
+
+MIT
+
+## Questions
+
+cbaird21 chandler.baird21@gmail.com
