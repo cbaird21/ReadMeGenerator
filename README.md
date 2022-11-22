@@ -1,6 +1,6 @@
-# j
+# Read Me Generator
 
-undefined
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Table of Contents  
 -[Project Description](#description)  
@@ -11,22 +11,22 @@ undefined
 -[License](#license)  
 
 ## Description  
-j
+This is to more efficently build readme.md files
 ## Installation  
-j 
+npm i 
 ## Usage  
-jj 
+Input desired data for readme by answering prompted questions 
 ## Contributions  
-j 
+reach out if you have any questions! 
 ## Tests  
-j 
+npm run test 
 ## License  
-Licensed under the undefined license  
+Licensed under the [MIT](https://opensource.org/licenses/MIT) license  
 
   
 ## Questions  
 
 If there are any additional questions or inquires feel free to reach out to me.  
-Github Username: https://github.com/s    
-Email: j  
+Github Username: https://github.com/cbaird21    
+Email: chandler.baird21@gmail.com  
           

@@ -1,6 +1,7 @@
 // const { default: inquirer } = require("inquirer");
 
 // TODO: Include packages needed for this application
+
 const inquirer = require("inquirer");
 const Markdown = require("./utils/generateMarkdown");
 const fs = require("fs");

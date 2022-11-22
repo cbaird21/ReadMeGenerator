@@ -1,6 +1,6 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-// const { writeFile } = require("fs").promises;
+
 class Markdown {
   static renderLicenseBadge(license) {
     const badges = {
