@@ -4,7 +4,7 @@
 class Markdown {
   static renderLicenseBadge(license) {
     const badges = {
-      mit: "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+      MIT: '![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)',
       GPLv2:
         "![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)",
       GPLv3:
@@ -18,10 +18,10 @@ class Markdown {
   // If there is no license, return an empty string
   static renderLicenseLink(license) {
     const licenseLinks = {
-      mit: "(https://opensource.org/licenses/MIT)",
-      GPLv2: "(https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)",
-      GPLv3: "(https://www.gnu.org/licenses/gpl-3.0)",
-      IBM: "(https://opensource.org/licenses/IPL-1.0)",
+      MIT: '[MIT](https://opensource.org/licenses/MIT)',
+      GPLv2: '[GPLv2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)',
+      GPLv3: '[GPLv3](https://www.gnu.org/licenses/gpl-3.0)',
+      IBM: "[IBM](https://opensource.org/licenses/IPL-1.0)",
     };
     return licenseLinks[license];
   }
@@ -30,7 +30,7 @@ class Markdown {
   // If there is no license, return an empty string
   static renderLicenseSection(license) {
     if (license) {
-      return "Licensed under the ${this.renderLicenselink(license)} license";
+      return `Licensed under the ${this.renderLicenseLink(license)} license`;
     } else {
       return " ";
     }
@@ -42,7 +42,7 @@ class Markdown {
   static generateMarkdown(data) {
     return `# ${data.projectName}
 
-    ${this.renderLicenseBadge(data.license)}
+${this.renderLicenseBadge(data.license)}
 
 ## Table of Contents  
 -[Project Description](#projectDescription)  
@@ -65,7 +65,8 @@ ${data.contributions}
 ${data.test} 
 ## License  
 ${this.renderLicenseSection(data.license)}  
-${this.renderLicenselink(data.license)}  
+
+  
 ## Questions  
 
 If there are any additional questions or inquires feel free to reach out to me.  
