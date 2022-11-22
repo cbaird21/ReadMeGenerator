@@ -1,4 +1,4 @@
-# Read Me Generator
+# ReadMe Generator
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
@@ -11,15 +11,15 @@
 -[License](#license)  
 
 ## Description  
-More efficently write readme files
+streamlines ability to make readme files
 ## Installation  
 npm i 
 ## Usage  
-run node index.js to launch questions for readme file 
+input data desired to be presented to user on readme.md file 
 ## Contributions  
-input description and body of desired readme. reach out with any questions 
+reach out with any questions 
 ## Tests  
-npm run test 
+npm run tests 
 ## License  
 Licensed under the [MIT](https://opensource.org/licenses/MIT) license  
   
