@@ -68,7 +68,10 @@ ${this.renderLicenseSection(data.license)}
 ## Link to application  
   
 Preview of application  
-https://drive.google.com/file/d/1kmY9v3tVTNeo5AJn9NFcYaTgATlaDoSU/view  
+https://drive.google.com/file/d/1kmY9v3tVTNeo5AJn9NFcYaTgATlaDoSU/view 
+  
+Image of previously generated README.md file    
+utils/ReadMeScreenShot.png   
   
 Link to repository  
 https://github.com/cbaird21/ReadMeGenerator  
