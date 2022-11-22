@@ -1,4 +1,4 @@
-# Read Me Generator
+# s
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
@@ -11,22 +11,30 @@
 -[License](#license)  
 
 ## Description  
-This is to more efficently build readme.md files
+s
 ## Installation  
-npm i 
+s 
 ## Usage  
-Input desired data for readme by answering prompted questions 
+s 
 ## Contributions  
-reach out if you have any questions! 
+s 
 ## Tests  
-npm run test 
+s 
 ## License  
 Licensed under the [MIT](https://opensource.org/licenses/MIT) license  
+  
+## Link to application  
+  
+Preview of application
+https://drive.google.com/file/d/1kmY9v3tVTNeo5AJn9NFcYaTgATlaDoSU/view  
+  
+Link to repository  
+https://github.com/cbaird21/ReadMeGenerator  
 
   
 ## Questions  
 
 If there are any additional questions or inquires feel free to reach out to me.  
-Github Username: https://github.com/cbaird21    
-Email: chandler.baird21@gmail.com  
+Github Username: https://github.com/s    
+Email: s  
           
