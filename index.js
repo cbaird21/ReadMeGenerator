@@ -2,7 +2,8 @@
 
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
-const { writeFile } = require("fs").promises;
+const Markdown = require("./utils/generateMarkdown");
+const fs = require("fs");
 // TODO: Create an array of questions for user input
 
 const promptUser = () => {
@@ -70,21 +71,21 @@ const promptUser = () => {
 //   projectName,
 // }) =>
 //   ` #  Readme Generator
-//       ${projectName}  
-  
-// ## Description  
+//       ${projectName}
+
+// ## Description
 //  ${projectDescription}
-// ## Installation  
-// ${dependencies} 
-// ## Usage  
-// ${userInfo} 
-// ## Contributions  
-// ${contributions} 
-// ## Tests  
-// ${test} 
-// ## License  
-// ${license}  
-// ## Questions  
+// ## Installation
+// ${dependencies}
+// ## Usage
+// ${userInfo}
+// ## Contributions
+// ${contributions}
+// ## Tests
+// ${test}
+// ## License
+// ${license}
+// ## Questions
 // ${userName} ${emailAddress}
 //         `;
 
@@ -93,8 +94,16 @@ const init = () => {
   promptUser()
     // Use writeFile method imported from fs.promises to use promises instead of
     // a callback function
-    .then((response) => writeFile("README.md", generateREADME(response)))
-    .then(() => console.log("Successfully wrote to README.md"))
+    .then((response) => {
+      const mark = Markdown.generateMarkdown(response);
+      fs.writeFile("README.md", mark, function (err) {
+        if (err) {
+          console.error(err);
+        } else {
+          console.log("Successfully wrote to README.md");
+        }
+      });
+    })
     .catch((err) => console.error(err));
 };
 
