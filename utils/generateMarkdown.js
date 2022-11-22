@@ -46,23 +46,22 @@ ${this.renderLicenseBadge(data.license)}
 
 ## Table of Contents  
 -[Project Description](#description)  
--[Installation](#dependancies)  
--[Usage](#userInfo)  
+-[Installation](#installation)  
+-[Usage](#usage)  
 -[Contributions](#contributions)  
--[Tests](#test)  
--[Questions](#Questions)  
+-[Tests](#tests)   
 -[License](#license)  
 
 ## Description  
 ${data.description}
 ## Installation  
-${data.dependencies} 
+${data.installation} 
 ## Usage  
-${data.userInfo} 
+${data.usage} 
 ## Contributions  
 ${data.contributions} 
 ## Tests  
-${data.test} 
+${data.tests} 
 ## License  
 ${this.renderLicenseSection(data.license)}  
 

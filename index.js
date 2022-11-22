@@ -37,17 +37,17 @@ const promptUser = () => {
     {
       type: "input",
       message: "What command should be run to install dependencies?",
-      name: "dependancies",
+      name: "installation",
     },
     {
       type: "input",
       message: "What command should be run to run tests?",
-      name: "test",
+      name: "tests",
     },
     {
       type: "input",
       message: "What does the user need to know about using the repo?",
-      name: "userInfo",
+      name: "usage",
     },
     {
       type: "input",

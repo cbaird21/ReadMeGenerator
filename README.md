@@ -1,33 +1,32 @@
-# Readme generator
+# j
 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+undefined
 
 ## Table of Contents  
 -[Project Description](#description)  
--[Installation](#dependancies)  
--[Usage](#userInfo)  
+-[Installation](#installation)  
+-[Usage](#usage)  
 -[Contributions](#contributions)  
--[Tests](#test)  
--[Questions](#Questions)  
+-[Tests](#tests)   
 -[License](#license)  
 
 ## Description  
-a;lkjsdfklaj;sdfj;askjldfnma;sldknfa;sjkldmfnmjajsd;lkjfnvwaskdcvfmjskxvcfmjnkskxdcvfkgmolswmdn cfv;/.knsjlamdvf;/lsjonmdxcvf;/losnadVZgkmnaSWEZ:?LDJMVGkAZ:?SWEKLMJNDFVg;ojwaSDerfjvn;asd/lM VFC
+j
 ## Installation  
-undefined 
+j 
 ## Usage  
-KLSAJDC;OIKwASEDJKMIFCowjeisdka 
+jj 
 ## Contributions  
-j;iowaksdecfjoijw;kaedsmnfcjoikn;mAWSDELFC 
+j 
 ## Tests  
-a;jlskdfo;w?DSMNcfv;oAIWSJMKEDNFCJswo;idkjcnmvf;seodjiavfcjwasdKEIcff;iowasdecfjmkiws;kinjomvc 
+j 
 ## License  
-Licensed under the [MIT](https://opensource.org/licenses/MIT) license  
+Licensed under the undefined license  
 
   
 ## Questions  
 
 If there are any additional questions or inquires feel free to reach out to me.  
-Github Username: https://github.com/cbaird21    
-Email: chanlder.b	  
+Github Username: https://github.com/s    
+Email: j  
           
