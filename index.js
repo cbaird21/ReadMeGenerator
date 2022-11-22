@@ -24,9 +24,9 @@ const promptUser = () => {
       name: "projectName",
     },
     {
-      type: "description",
+      type: "input",
       message: "Please write a short description of your project",
-      name: "projectDescription",
+      name: "description",
     },
     {
       type: "checkbox",

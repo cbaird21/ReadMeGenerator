@@ -1,9 +1,9 @@
-# s
+# Readme generator
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Table of Contents  
--[Project Description](#projectDescription)  
+-[Project Description](#description)  
 -[Installation](#dependancies)  
 -[Usage](#userInfo)  
 -[Contributions](#contributions)  
@@ -12,15 +12,15 @@
 -[License](#license)  
 
 ## Description  
-s
+a;lkjsdfklaj;sdfj;askjldfnma;sldknfa;sjkldmfnmjajsd;lkjfnvwaskdcvfmjskxvcfmjnkskxdcvfkgmolswmdn cfv;/.knsjlamdvf;/lsjonmdxcvf;/losnadVZgkmnaSWEZ:?LDJMVGkAZ:?SWEKLMJNDFVg;ojwaSDerfjvn;asd/lM VFC
 ## Installation  
 undefined 
 ## Usage  
-a 
+KLSAJDC;OIKwASEDJKMIFCowjeisdka 
 ## Contributions  
-a 
+j;iowaksdecfjoijw;kaedsmnfcjoikn;mAWSDELFC 
 ## Tests  
-a 
+a;jlskdfo;w?DSMNcfv;oAIWSJMKEDNFCJswo;idkjcnmvf;seodjiavfcjwasdKEIcff;iowasdecfjmkiws;kinjomvc 
 ## License  
 Licensed under the [MIT](https://opensource.org/licenses/MIT) license  
 
@@ -28,6 +28,6 @@ Licensed under the [MIT](https://opensource.org/licenses/MIT) license
 ## Questions  
 
 If there are any additional questions or inquires feel free to reach out to me.  
-Github Username:s  
-Email:s  
+Github Username: https://github.com/cbaird21    
+Email: chanlder.b	  
           

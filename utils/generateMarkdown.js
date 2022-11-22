@@ -45,7 +45,7 @@ class Markdown {
 ${this.renderLicenseBadge(data.license)}
 
 ## Table of Contents  
--[Project Description](#projectDescription)  
+-[Project Description](#description)  
 -[Installation](#dependancies)  
 -[Usage](#userInfo)  
 -[Contributions](#contributions)  
@@ -54,7 +54,7 @@ ${this.renderLicenseBadge(data.license)}
 -[License](#license)  
 
 ## Description  
-${data.projectDescription}
+${data.description}
 ## Installation  
 ${data.dependencies} 
 ## Usage  
@@ -70,8 +70,8 @@ ${this.renderLicenseSection(data.license)}
 ## Questions  
 
 If there are any additional questions or inquires feel free to reach out to me.  
-Github Username:${data.userName}  
-Email:${data.emailAddress}  
+Github Username: https://github.com/${data.userName}    
+Email: ${data.emailAddress}  
           `;
   }
 }
